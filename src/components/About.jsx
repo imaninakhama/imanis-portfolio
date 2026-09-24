@@ -1,29 +1,9 @@
-import { useEffect, useRef, useState } from "react";
 import Reveal from "./Reveal";
 import SectionLabel from "./SectionLabel";
 import MiniStat from "./MiniStat";
 import portrait from "../assets/portrait.jpg";
 
 export default function About() {
-  const [photo, setPhoto] = useState(portrait);
-  const objectUrlRef = useRef(null);
-
-  useEffect(() => {
-    return () => {
-      if (objectUrlRef.current) URL.revokeObjectURL(objectUrlRef.current);
-    };
-  }, []);
-
-  function handleFileChange(event) {
-    const file = event.target.files?.[0];
-    if (!file) return;
-
-    if (objectUrlRef.current) URL.revokeObjectURL(objectUrlRef.current);
-    const url = URL.createObjectURL(file);
-    objectUrlRef.current = url;
-    setPhoto(url);
-  }
-
   return (
     <section id="about" className="mx-auto max-w-5xl px-6 sm:px-10 py-16 sm:py-24">
       <Reveal>
@@ -57,21 +37,11 @@ export default function About() {
               <div className="absolute top-[4%] left-[4%] right-[10%] bottom-[12%]">
                 <div className="relative w-full h-full overflow-hidden rounded-[50%]">
                   <img
-                    src={photo}
+                    src={portrait}
                     alt="Portrait of Imani Nakhama Lunjala"
                     className="w-full h-full object-cover object-center"
                   />
                 </div>
-
-                <label className="accent-tint absolute -bottom-3 -right-3 inline-flex items-center rounded-full bg-accent px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.14em] text-card shadow-[var(--shadow-card)] cursor-pointer hover:bg-accent-deep">
-                  Replace
-                  <input
-                    type="file"
-                    accept="image/*"
-                    onChange={handleFileChange}
-                    className="sr-only"
-                  />
-                </label>
               </div>
             </div>
           </div>
