@@ -60,6 +60,11 @@ export const contactLines = [
     value: "nakhamaimani@gmail.com",
     href: "https://mail.google.com/mail/?view=cm&fs=1&to=nakhamaimani@gmail.com",
   },
+  {
+    label: "WHATSAPP",
+    value: "+254 796 755 846",
+    href: "https://wa.me/254796755846",
+  },
   { label: "LOCATION", value: "Nairobi, Kenya", href: null },
   {
     label: "LINKEDIN",
