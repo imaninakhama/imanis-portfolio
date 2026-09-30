@@ -14,7 +14,7 @@ export default function Hero() {
         </h1>
 
         <p className="accent-tint mt-4 font-mono text-sm uppercase tracking-[0.14em] text-accent">
-          Software Developer · Aspiring Cloud Engineer
+          Full-Stack Developer
         </p>
 
         <p className="mt-6 max-w-2xl text-base sm:text-lg text-body leading-relaxed">
