@@ -13,12 +13,15 @@ export default function About() {
           <div className="order-2 sm:order-1">
             <p className="text-base sm:text-lg text-body leading-relaxed">
               I studied Occupational Health &amp; Safety at Kenyatta
-              University. In my first year, a career-shadowing placement at
-              Value HR Group put me in front of the technology and
-              problem-solving side of a workplace for the first time, and it
-              stuck with me. I went on to train in full-stack development at
-              Moringa School, and now build web applications with
-              JavaScript, React, Python, Flask and SQLite.
+              University. A career-shadowing placement at Value Chain
+              Factory introduced me to the technology and problem-solving
+              side of the workplace, and that experience sparked my interest
+              in software development. I went on to train in full-stack
+              development at Moringa School, where I developed skills in
+              JavaScript, React, Python, Flask and SQLite. I also went
+              through the KCB Tujiajiri program, where I gained exposure to
+              Artificial Intelligence and Data Science, expanding my
+              interest in technology beyond software development.
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-6 max-w-sm">
