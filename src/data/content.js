@@ -53,15 +53,6 @@ export const projects = [
     demo: null,
   },
   {
-    name: "SifaDesigns",
-    category: "Frontend",
-    description:
-      "E-commerce storefront for handwoven African artisan products, with a custom CSS-animated hero section.",
-    stack: ["React", "Tailwind CSS", "Vite"],
-    github: "https://github.com/imaninakhama/sifa_designs",
-    demo: "https://sifa-designs.vercel.app/",
-  },
-  {
     name: "Tasty Spices & Catering",
     category: "Frontend",
     description: "Catering business site for a Nairobi caterer, with client-side routing between pages.",
