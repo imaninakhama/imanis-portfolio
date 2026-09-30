@@ -5,7 +5,7 @@ export const skillGroups = [
   },
   {
     label: "Backend",
-    skills: ["Python", "Flask", "REST APIs"],
+    skills: ["Python", "Flask", "REST APIs", "Node.js"],
   },
   {
     label: "Database",
