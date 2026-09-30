@@ -82,6 +82,28 @@ body {
   }
 }
 
+/* Entrance fade for project cards when the filtered set changes */
+@keyframes card-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.card-fade-in {
+  animation: card-fade-in 300ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-fade-in {
+    animation: none;
+  }
+}
+
 /* Reveal-on-scroll base state */
 .reveal-init {
   opacity: 0;
