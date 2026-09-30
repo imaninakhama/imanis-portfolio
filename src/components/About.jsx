@@ -18,9 +18,7 @@ export default function About() {
               problem-solving side of a workplace for the first time, and it
               stuck with me. I went on to train in full-stack development at
               Moringa School, and now build web applications with
-              JavaScript, React, Python, Flask and SQLite. I'm currently
-              working toward cloud engineering — learning how the
-              applications I build actually get deployed and run.
+              JavaScript, React, Python, Flask and SQLite.
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-6 max-w-sm">

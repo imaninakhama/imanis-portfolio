@@ -18,9 +18,9 @@ export default function Hero() {
         </p>
 
         <p className="mt-6 max-w-2xl text-base sm:text-lg text-body leading-relaxed">
-          I build web applications with React, Python and Flask, and I'm
-          working on the deployment and infrastructure side of things next —
-          moving toward cloud engineering.
+          I build web applications with React, Python and Flask. Right now
+          I'm learning the deployment and infrastructure side — how those
+          applications actually run in production.
         </p>
       </Reveal>
     </section>

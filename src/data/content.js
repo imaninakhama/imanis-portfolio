@@ -17,7 +17,7 @@ export const skillGroups = [
   },
   {
     label: "Currently learning",
-    skills: ["Cloud engineering", "Cloud platforms", "Deployment & infrastructure"],
+    skills: ["Cloud platforms", "Deployment & infrastructure"],
   },
 ];
 
@@ -56,7 +56,7 @@ export const projects = [
     name: "SifaDesigns",
     category: "Frontend",
     description:
-      "E-commerce storefront for handwoven African artisan products, with a hero section built around layered CSS animation.",
+      "E-commerce storefront for handwoven African artisan products, with a custom CSS-animated hero section.",
     stack: ["React", "Tailwind CSS", "Vite"],
     github: "https://github.com/imaninakhama/sifa_designs",
     demo: "https://sifa-designs.vercel.app/",
