@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -7,10 +6,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
-  const [mode, setMode] = useState("dev");
-
   return (
-    <div data-mode={mode} className="min-h-screen bg-cream">
+    <div className="min-h-screen bg-cream">
       <div aria-hidden="true" className="paper-grain" />
 
       <Nav />
@@ -18,7 +15,7 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Skills mode={mode} onModeChange={setMode} />
+        <Skills />
         <Projects />
         <Contact />
       </main>

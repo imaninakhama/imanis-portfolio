@@ -12,18 +12,20 @@ export default function About() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center">
           <div className="order-2 sm:order-1">
             <p className="text-base sm:text-lg text-body leading-relaxed">
-              I'm currently pursuing a BSc in Occupational Health &amp;
-              Safety at Kenyatta University while working as an OHS Officer
-              at Value Chain Factory, where I inspect hazards, assess risk,
-              and keep production floors compliant. Outside the factory, I
-              build full-stack web applications — React frontends backed by
-              Flask APIs — bringing the same systematic, detail-oriented
-              approach to code that I bring to a safety audit.
+              I studied Occupational Health &amp; Safety at Kenyatta
+              University. In my first year, a career-shadowing placement at
+              Value HR Group put me in front of the technology and
+              problem-solving side of a workplace for the first time, and it
+              stuck with me. I went on to train in full-stack development at
+              Moringa School, and now build web applications with
+              JavaScript, React, Python, Flask and SQLite. I'm currently
+              working toward cloud engineering — learning how the
+              applications I build actually get deployed and run.
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-6 max-w-sm">
-              <MiniStat label="Education" value="BSc OHS, Kenyatta Univ." />
-              <MiniStat label="Role" value="OHS Officer, Value Chain Factory" />
+              <MiniStat label="Education" value="BSc OHS, Kenyatta University" />
+              <MiniStat label="Training" value="Full-Stack, Moringa School" />
             </div>
           </div>
 

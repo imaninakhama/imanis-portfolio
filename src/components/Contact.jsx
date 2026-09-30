@@ -14,7 +14,7 @@ export default function Contact() {
         </p>
 
         <h2 className="font-display text-3xl sm:text-4xl text-ink max-w-xl leading-tight">
-          Let's talk safety, or let's talk code.
+          Have a project, opportunity or question? Get in touch.
         </h2>
 
         <div className="mt-8 max-w-md">

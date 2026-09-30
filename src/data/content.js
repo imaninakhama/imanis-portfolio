@@ -1,56 +1,73 @@
-export const skillSets = {
-  ohs: [
-    { label: "Workplace Hazard Inspection", level: 95 },
-    { label: "Risk Assessment", level: 90 },
-    { label: "Occupational Toxicology", level: 80 },
-    { label: "Environmental Microbiology", level: 75 },
-    { label: "Biostatistics & Reporting", level: 70 },
-    { label: "Compliance Auditing", level: 85 },
-  ],
-  dev: [
-    { label: "React / JSX", level: 90 },
-    { label: "Flask REST APIs", level: 85 },
-    { label: "JWT Authentication", level: 75 },
-    { label: "Tailwind CSS", level: 88 },
-    { label: "SQL / SQLite", level: 78 },
-    { label: "Git & Debugging", level: 82 },
-  ],
-};
+export const skillGroups = [
+  {
+    label: "Frontend",
+    skills: ["JavaScript", "React", "HTML", "CSS", "Tailwind CSS"],
+  },
+  {
+    label: "Backend",
+    skills: ["Python", "Flask", "REST APIs"],
+  },
+  {
+    label: "Database",
+    skills: ["SQLite", "SQL"],
+  },
+  {
+    label: "Tools",
+    skills: ["Git", "GitHub", "Vercel"],
+  },
+  {
+    label: "Currently learning",
+    skills: ["Cloud engineering", "Cloud platforms", "Deployment & infrastructure"],
+  },
+];
 
 export const projectFilters = ["All", "Full-Stack", "Frontend", "API"];
 
 export const projects = [
   {
     name: "KDCCE Community Platform",
-    tag: "FULL-STACK",
     category: "Full-Stack",
     description:
-      "Community platform for elderly care services, built with a 5-person team. Led backend development — Flask REST API, PostgreSQL, Docker — against a documented API contract for parallel frontend/backend work.",
-    url: "https://kdcce-community-platform-team-iota.vercel.app",
+      "Community platform for elderly care services, built with a 5-person team against a documented API contract. I led backend development — the REST API, JWT auth, and the PostgreSQL data layer.",
+    stack: ["React", "Flask", "PostgreSQL", "JWT", "Docker"],
+    github: "https://github.com/imaninakhama/kdcce-community-platform-team",
+    demo: "https://kdcce-community-platform-team-iota.vercel.app",
+  },
+  {
+    name: "Productivity App API",
+    category: "API",
+    description:
+      "Flask backend for a productivity app — JWT-based registration and login, protected per-user routes, and full CRUD for tasks and notes with pagination.",
+    stack: ["Flask", "SQLite", "JWT", "pytest"],
+    github: "https://github.com/imaninakhama/Flask-Backend-Productivity-App",
+    demo: null,
   },
   {
     name: "Workout Tracker API",
-    tag: "API/DOCS",
     category: "API",
     description:
-      "Backend API for logging workouts, with full README documentation for setup and endpoint usage.",
-    url: null,
+      "REST API for logging workouts and exercises, with a join table tracking sets, reps and duration per session, and documented endpoints.",
+    stack: ["Flask", "SQLAlchemy", "SQLite", "Marshmallow"],
+    github:
+      "https://github.com/imaninakhama/Flask-SQLAlchemy-Workout-Application-backend",
+    demo: null,
   },
   {
     name: "SifaDesigns",
-    tag: "FRONTEND",
     category: "Frontend",
     description:
-      "E-commerce storefront for handwoven African artisan products. Hero section rebuilt with glassmorphism and CSS animation.",
-    url: "https://sifa-designs.vercel.app/",
+      "E-commerce storefront for handwoven African artisan products, with a hero section built around layered CSS animation.",
+    stack: ["React", "Tailwind CSS", "Vite"],
+    github: "https://github.com/imaninakhama/sifa_designs",
+    demo: "https://sifa-designs.vercel.app/",
   },
   {
     name: "Tasty Spices & Catering",
-    tag: "FRONTEND",
     category: "Frontend",
-    description:
-      "Catering business site for a Nairobi caterer, built in React + Tailwind with hash-based routing.",
-    url: "https://catering-site-ecru.vercel.app/",
+    description: "Catering business site for a Nairobi caterer, with client-side routing between pages.",
+    stack: ["React", "React Router", "Tailwind CSS"],
+    github: "https://github.com/imaninakhama/catering-site",
+    demo: "https://catering-site-ecru.vercel.app/",
   },
 ];
 
@@ -61,16 +78,21 @@ export const contactLines = [
     href: "https://mail.google.com/mail/?view=cm&fs=1&to=nakhamaimani@gmail.com",
   },
   {
-    label: "WHATSAPP",
-    value: "+254 796 755 846",
-    href: "https://wa.me/254796755846",
+    label: "GITHUB",
+    value: "github.com/imaninakhama",
+    href: "https://github.com/imaninakhama",
   },
-  { label: "LOCATION", value: "Nairobi, Kenya", href: null },
   {
     label: "LINKEDIN",
     value: "linkedin.com/in/imani-lunjala-1b2057422",
     href: "https://www.linkedin.com/in/imani-lunjala-1b2057422",
   },
+  {
+    label: "WHATSAPP",
+    value: "+254 796 755 846",
+    href: "https://wa.me/254796755846",
+  },
+  { label: "LOCATION", value: "Nairobi, Kenya", href: null },
 ];
 
 export const navLinks = [

@@ -13,10 +13,14 @@ export default function Hero() {
           <span className="accent-tint italic text-accent">Imani</span>
         </h1>
 
+        <p className="accent-tint mt-4 font-mono text-sm uppercase tracking-[0.14em] text-accent">
+          Software Developer · Aspiring Cloud Engineer
+        </p>
+
         <p className="mt-6 max-w-2xl text-base sm:text-lg text-body leading-relaxed">
-          Occupational Health &amp; Safety Officer and full-stack software
-          engineer. I inspect what could go wrong on a factory floor, and I
-          build the systems that keep it running well.
+          I build web applications with React, Python and Flask, and I'm
+          working on the deployment and infrastructure side of things next —
+          moving toward cloud engineering.
         </p>
       </Reveal>
     </section>

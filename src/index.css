@@ -19,12 +19,6 @@
   --shadow-blob: 0 18px 40px -18px rgba(29, 29, 27, 0.35);
 }
 
-/* Safety Officer mode recolors the shared accent tokens everywhere */
-[data-mode="ohs"] {
-  --color-accent: #96700a;
-  --color-accent-deep: #6b4f00;
-}
-
 html {
   scroll-behavior: smooth;
 }
